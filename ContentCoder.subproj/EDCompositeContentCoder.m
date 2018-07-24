@@ -26,7 +26,7 @@
 #import "EDMConstants.h"
 #import "EDEntityFieldCoder.h"
 #import "EDCompositeContentCoder.h"
-#import <EdCommon/EDObjectPair.h>
+#import <EDCommon/EDObjectPair.h>
 
 @interface EDCompositeContentCoder(PrivateAPI)
 - (void)_takeSubpartsFromMultipartContent:(EDMessagePart *)mpart;

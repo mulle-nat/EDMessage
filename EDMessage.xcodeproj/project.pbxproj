@@ -12,7 +12,8 @@
 		031A06B60E9F169100DADB91 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		03C571FC0E9D1DD50009F0F9 /* EDSecureSMTPStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C571FA0E9D1DD50009F0F9 /* EDSecureSMTPStream.h */; };
 		03C571FD0E9D1DD50009F0F9 /* EDSecureSMTPStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C571FB0E9D1DD50009F0F9 /* EDSecureSMTPStream.m */; };
-		22040DBA1445E4F4006CDAEA /* EDCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22040DB91445E4F4006CDAEA /* EDCommon.framework */; };
+		41C9EF9A21075ED6000F0F97 /* EDCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419A86FD21075D2E00F71898 /* EDCommon.framework */; };
+		41C9EF9B21075EE8000F0F97 /* EDCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419A86FD21075D2E00F71898 /* EDCommon.framework */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 		DE0C15960E61BA1F00C1BC3F /* parsedate.y in Sources */ = {isa = PBXBuildFile; fileRef = DE0C15950E61BA1F00C1BC3F /* parsedate.y */; };
 		DE221E890DD3E05B00DBD46E /* EDMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = DE221E850DD3E05B00DBD46E /* EDMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -75,16 +76,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		22040DB51445E050006CDAEA /* PBXContainerItemProxy */ = {
+		419A86FC21075D2E00F71898 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 22040DB11445E050006CDAEA /* EDCommon.xcodeproj */;
+			containerPortal = 419A86F821075D2E00F71898 /* EDCommon.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = AD39F33905443F3E0086D411;
 			remoteInfo = EDCommon;
 		};
-		22040DB71445E0A3006CDAEA /* PBXContainerItemProxy */ = {
+		41C9EF9621075D50000F0F97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 22040DB11445E050006CDAEA /* EDCommon.xcodeproj */;
+			containerPortal = 419A86F821075D2E00F71898 /* EDCommon.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = AD39F29B05443F3D0086D411;
 			remoteInfo = EDCommon;
@@ -99,8 +100,8 @@
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		22040DB11445E050006CDAEA /* EDCommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EDCommon.xcodeproj; path = ../EdCommmon/EDCommon.xcodeproj; sourceTree = "<group>"; };
 		22040DB91445E4F4006CDAEA /* EDCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EDCommon.framework; path = "../../../Library/Developer/Xcode/DerivedData/Applications-bsewpqaljuxroxdaabjodtceboqn/Build/Products/Debug/EDCommon.framework"; sourceTree = "<group>"; };
+		419A86F821075D2E00F71898 /* EDCommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EDCommon.xcodeproj; path = ../EDCommon/EDCommon.xcodeproj; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* EDMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EDMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -169,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C9EF9B21075EE8000F0F97 /* EDCommon.framework in Frameworks */,
 				031A06B40E9F168A00DADB91 /* EDMessage.framework in Frameworks */,
 				031A06B60E9F169100DADB91 /* Cocoa.framework in Frameworks */,
 			);
@@ -178,9 +180,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C9EF9A21075ED6000F0F97 /* EDCommon.framework in Frameworks */,
 				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
 				DEB8D3380DD8A43E007E88A5 /* Security.framework in Frameworks */,
-				22040DBA1445E4F4006CDAEA /* EDCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +216,7 @@
 		0867D691FE84028FC02AAC07 /* EDMessage */ = {
 			isa = PBXGroup;
 			children = (
-				22040DB11445E050006CDAEA /* EDCommon.xcodeproj */,
+				419A86F821075D2E00F71898 /* EDCommon.xcodeproj */,
 				DE158C0B0E198E7F00447697 /* Global Headers */,
 				DE158C0C0E198F7B00447697 /* FoundationExtensions */,
 				DE221EEC0DD3E12400DBD46E /* Message */,
@@ -228,6 +230,7 @@
 				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
 				034768DFFF38A50411DB9C8B /* Products */,
 				DEDA09150DDA2A8100A8B498 /* Documentation */,
+				41C9EF9921075ED6000F0F97 /* Frameworks */,
 			);
 			name = EDMessage;
 			sourceTree = "<group>";
@@ -269,12 +272,19 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		22040DB21445E050006CDAEA /* Products */ = {
+		419A86F921075D2E00F71898 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22040DB61445E050006CDAEA /* EDCommon.framework */,
+				419A86FD21075D2E00F71898 /* EDCommon.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		41C9EF9921075ED6000F0F97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DE158C0B0E198E7F00447697 /* Global Headers */ = {
@@ -575,7 +585,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				22040DB81445E0A3006CDAEA /* PBXTargetDependency */,
+				41C9EF9721075D50000F0F97 /* PBXTargetDependency */,
 			);
 			name = EDMessage;
 			productInstallPath = "$(HOME)/Library/Frameworks";
@@ -606,8 +616,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 22040DB21445E050006CDAEA /* Products */;
-					ProjectRef = 22040DB11445E050006CDAEA /* EDCommon.xcodeproj */;
+					ProductGroup = 419A86F921075D2E00F71898 /* Products */;
+					ProjectRef = 419A86F821075D2E00F71898 /* EDCommon.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -619,11 +629,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		22040DB61445E050006CDAEA /* EDCommon.framework */ = {
+		419A86FD21075D2E00F71898 /* EDCommon.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = EDCommon.framework;
-			remoteRef = 22040DB51445E050006CDAEA /* PBXContainerItemProxy */;
+			remoteRef = 419A86FC21075D2E00F71898 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -686,10 +696,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22040DB81445E0A3006CDAEA /* PBXTargetDependency */ = {
+		41C9EF9721075D50000F0F97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EDCommon;
-			targetProxy = 22040DB71445E0A3006CDAEA /* PBXContainerItemProxy */;
+			targetProxy = 41C9EF9621075D50000F0F97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -741,12 +751,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/build/Release (embedded)/\"",
-					"\"$(SRCROOT)/../EdCommon/build/Release (embedded)\"",
-				);
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_ENABLE_OBJC_GC = supported;
 				SDKROOT = macosx;
 			};
 			name = "Release (embedded)";
@@ -759,10 +764,6 @@
 				DSTROOT = /;
 				DYLIB_COMPATIBILITY_VERSION = 17;
 				DYLIB_CURRENT_VERSION = 17;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/Applications-bsewpqaljuxroxdaabjodtceboqn/Build/Products/Debug\"",
-				);
 				FRAMEWORK_VERSION = A;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -811,10 +812,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/Applications-bsewpqaljuxroxdaabjodtceboqn/Build/Products/Debug\"",
-				);
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
@@ -839,11 +836,6 @@
 				DSTROOT = /;
 				DYLIB_COMPATIBILITY_VERSION = 17;
 				DYLIB_CURRENT_VERSION = 17;
-				FRAMEWORK_SEARCH_PATHS = (
-					Dependencies/edcommon/build/UninstalledProducts,
-					Dependencies/edcommon/build/Release,
-					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/Applications-bsewpqaljuxroxdaabjodtceboqn/Build/Products/Debug\"",
-				);
 				FRAMEWORK_VERSION = A;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -867,9 +859,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = /Users/davec/Sources/Build/EdCommon/;
 				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_ENABLE_OBJC_GC = supported;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -878,7 +868,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../EdCommon/build/Release/\"";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				SDKROOT = macosx;
 			};
